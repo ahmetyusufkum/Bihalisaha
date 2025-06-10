@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiHalısaha - Halı Saha Rezervasyon Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Halı saha rezervasyonlarınızı kolayca yapın, maçlarınızı organize edin. BiHalısaha ile spor deneyiminizi en üst seviyeye çıkarın.">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="BiHalısaha Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#anasayfa" class="active">Ana Sayfa</a>
+            <a href="#nasil-calisir">Nasıl Çalışır</a>
+            <a href="#ozellikler">Özellikler</a>
+            <a href="#sahalar">Sahalar</a>
+            <a href="#iletisim">İletişim</a>
+            <a href="#" class="btn-login">İndir</a>
+        </div>
+        <div class="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="anasayfa" class="hero">
+        <div class="hero-bg-slider">
+            <img src="images/bg1.jpg" class="hero-bg active" alt="Arka Plan 1">
+            <img src="images/bg2.jpg" class="hero-bg" alt="Arka Plan 2">
+            <img src="images/bg3.jpg" class="hero-bg" alt="Arka Plan 3">
+        </div>
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Halı Saha Rezervasyonu Artık Çok Kolay!</h1>
+            <p>En yakın halı sahaları keşfet, anında rezervasyon yap, maçlarını organize et.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn primary">İndir</a>
+            </div>
+            <div class="app-badges">
+                <a href="#" class="app-badge">
+                    <img src="images/google-play-badge.png" alt="Google Play'den İndir">
+                </a>
+                <a href="#" class="app-badge">
+                    <img src="images/app-store-badge.png" alt="App Store'dan İndir">
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">Aktif Saha</span>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <span class="stat-number">50K+</span>
+                    <span class="stat-label">Mutlu Kullanıcı</span>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <span class="stat-number">10K+</span>
+                    <span class="stat-label">Günlük Rezervasyon</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nasil-calisir" class="how-it-works">
+        <h2 data-aos="fade-up">Nasıl Çalışır?</h2>
+        <div class="steps-container">
+            <div class="step" data-aos="fade-up" data-aos-delay="100">
+                <div class="step-number">1</div>
+                <i class="fas fa-user-plus"></i>
+                <h3>Üye Ol</h3>
+                <p>Ücretsiz hesap oluştur ve hemen başla</p>
+            </div>
+            <div class="step" data-aos="fade-up" data-aos-delay="200">
+                <div class="step-number">2</div>
+                <i class="fas fa-search"></i>
+                <h3>Saha Bul</h3>
+                <p>Konumuna en yakın halı sahaları keşfet</p>
+            </div>
+            <div class="step" data-aos="fade-up" data-aos-delay="300">
+                <div class="step-number">3</div>
+                <i class="fas fa-calendar-check"></i>
+                <h3>Rezervasyon Yap</h3>
+                <p>İstediğin saati seç ve hemen ayırt</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="detaylar" class="details">
+        <div class="details-container">
+            <div class="details-content" data-aos="fade-right">
+                <h2>Halı Saha Yöneticileri İçin</h2>
+                <ul>
+                    <li><i class="fas fa-check"></i> Sahalarınızı detaylı bilgilerle tanıtın</li>
+                    <li><i class="fas fa-check"></i> Resimler ve özellikler ekleyin</li>
+                    <li><i class="fas fa-check"></i> Fiyatlandırma ve çalışma saatlerini belirleyin</li>
+                    <li><i class="fas fa-check"></i> Rezervasyon takvimini yönetin</li>
+                    <li><i class="fas fa-check"></i> Müşteri yorumlarını görüntüleyin</li>
+                </ul>
+                <a href="#" class="btn primary">Hemen Kaydol</a>
+            </div>
+            <div class="details-content" data-aos="fade-left">
+                <h2>Kullanıcılar İçin</h2>
+                <ul>
+                    <li><i class="fas fa-check"></i> Ücretsiz üyelik</li>
+                    <li><i class="fas fa-check"></i> Kolay rezervasyon sistemi</li>
+                    <li><i class="fas fa-check"></i> Saha detayları ve fotoğrafları</li>
+                    <li><i class="fas fa-check"></i> Konum bazlı arama</li>
+                    <li><i class="fas fa-check"></i> Takım oluşturma ve yönetme</li>
+                </ul>
+                <a href="#" class="btn primary">Üye Ol</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ozellikler" class="features">
+        <h2 data-aos="fade-up">Özelliklerimiz</h2>
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-calendar-check"></i>
+                <h3>Kolay Rezervasyon</h3>
+                <p>Halı saha rezervasyonlarınızı saniyeler içinde yapın.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-users"></i>
+                <h3>Saha Yönetimi</h3>
+                <p>Sahalarınızı ekleyin ve maçlarınızı organize edin.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-chart-line"></i>
+                <h3>İstatistikler</h3>
+                <p>Maç istatistiklerinizi takip edin ve gelişiminizi görün.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hakkimizda" class="about">
+        <div class="about-content" data-aos="fade-up">
+            <h2>Hakkımızda</h2>
+            <p>BiHalısaha, halı saha rezervasyon süreçlerini dijitalleştirerek spor severlere kolaylık sağlamayı
+                amaçlayan yenilikçi bir platformdur. Yakında Android ve iOS uygulamalarımızla hizmetinizdeyiz!</p>
+        </div>
+    </section>
+
+    <section id="iletisim" class="contact">
+        <h2 data-aos="fade-up">İletişim</h2>
+        <div class="contact-form" data-aos="fade-up">
+            <form>
+                <input type="text" placeholder="Adınız" required>
+                <input type="email" placeholder="E-posta Adresiniz" required>
+                <textarea placeholder="Mesajınız" required></textarea>
+                <button type="submit" class="btn primary">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="sahalar" class="courts">
+        <h2 data-aos="fade-up">Popüler Sahalar</h2>
+        <div class="courts-grid">
+            <div class="court-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="court-image">
+                    <img src="images/court1.jpg" alt="Yeşil Vadi Halı Saha">
+                    <div class="court-rating">
+                        <i class="fas fa-star"></i>
+                        <span>4.8</span>
+                    </div>
+                </div>
+                <div class="court-info">
+                    <h3>Yeşil Vadi Halı Saha</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Esenyurt, İstanbul</p>
+                    <div class="court-features">
+                        <span><i class="fas fa-shower"></i> Duş</span>
+                        <span><i class="fas fa-parking"></i> Otopark</span>
+                        <span><i class="fas fa-lightbulb"></i> Aydınlatma</span>
+                        <span><i class="fas fa-tshirt"></i> Soyunma Odası</span>
+                        <span><i class="fas fa-store"></i> Kafeterya</span>
+                    </div>
+                    <div class="court-price">
+                        <span class="price">₺1500</span>
+                        <span class="duration">/ saat</span>
+                    </div>
+                    <a href="#" class="btn primary">Rezervasyon Yap</a>
+                </div>
+            </div>
+
+            <div class="court-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="court-image">
+                    <img src="images/court2.jpg" alt="Spor Arena Halı Saha">
+                    <div class="court-rating">
+                        <i class="fas fa-star"></i>
+                        <span>4.9</span>
+                    </div>
+                </div>
+                <div class="court-info">
+                    <h3>Spor Arena Halı Saha</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Pendik, İstanbul</p>
+                    <div class="court-features">
+                        <span><i class="fas fa-shower"></i> Duş</span>
+                        <span><i class="fas fa-parking"></i> Otopark</span>
+                        <span><i class="fas fa-lightbulb"></i> Aydınlatma</span>
+                        <span><i class="fas fa-tshirt"></i> Soyunma Odası</span>
+                        <span><i class="fas fa-store"></i> Kafeterya</span>
+                    </div>
+                    <div class="court-price">
+                        <span class="price">₺2000</span>
+                        <span class="duration">/ saat</span>
+                    </div>
+                    <a href="#" class="btn primary">Rezervasyon Yap</a>
+                </div>
+            </div>
+
+            <div class="court-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="court-image">
+                    <img src="images/court3.jpg" alt="Güneş Spor Kompleksi">
+                    <div class="court-rating">
+                        <i class="fas fa-star"></i>
+                        <span>4.7</span>
+                    </div>
+                </div>
+                <div class="court-info">
+                    <h3>Üsküdar Spor Kompleksi</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Üsküdar, İstanbul</p>
+                    <div class="court-features">
+                        <span><i class="fas fa-shower"></i> Duş</span>
+                        <span><i class="fas fa-parking"></i> Otopark</span>
+                        <span><i class="fas fa-lightbulb"></i> Aydınlatma</span>
+                        <span><i class="fas fa-tshirt"></i> Soyunma Odası</span>
+                        <span><i class="fas fa-store"></i> Kafeterya</span>
+                    </div>
+                    <div class="court-price">
+                        <span class="price">₺1800</span>
+                        <span class="duration">/ saat</span>
+                    </div>
+                    <a href="#" class="btn primary">Rezervasyon Yap</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-content" data-aos="fade-up">
+            <h2>Yeniliklerden Haberdar Olun</h2>
+            <p>En yeni özellikler ve kampanyalardan ilk siz haberdar olun!</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="E-posta adresiniz" required>
+                <button type="submit" class="btn primary">Abone Ol</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>BiHalısaha</h3>
+                    <p>Halı saha rezervasyonlarınızı kolayca yapın, maçlarınızı organize edin.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Hızlı Bağlantılar</h3>
+                    <ul>
+                        <li><a href="#anasayfa">Ana Sayfa</a></li>
+                        <li><a href="#nasil-calisir">Nasıl Çalışır</a></li>
+                        <li><a href="#ozellikler">Özellikler</a></li>
+                        <li><a href="#sahalar">Sahalar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Yasal</h3>
+                    <ul>
+                        <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+                        <li><a href="#">Kullanım Koşulları</a></li>
+                        <li><a href="#">KVKK</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>İletişim</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> +90 507 168 3115</li>
+                        <li><i class="fas fa-envelope"></i> info@bihalisaha.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BiHalısaha. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="download-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 style="margin-bottom: 1.5rem;">Uygulamayı İndir</h2>
+            <p style="margin-bottom: 2rem; color:#444;">Hemen uygulamamızı indirerek kolayca rezervasyon yapabilirsin.</p>
+            <div class="modal-buttons">
+                <a href="https://play.google.com/store/apps/details?id=com.bihalisaha.app" target="_blank" class="btn primary" style="width: 200px; font-size: 1.2rem;">
+                    <i class="fab fa-google-play"></i> Google Play
+                </a>
+                <a href="https://apps.apple.com/app/bihalisaha/id1234567890" target="_blank" class="btn secondary" style="width: 200px; font-size: 1.2rem;">
+                    <i class="fab fa-apple"></i> App Store
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
